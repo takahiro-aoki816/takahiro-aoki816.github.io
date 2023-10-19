@@ -26,14 +26,35 @@
     <div class="container">
       <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
       <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-<select name="遅刻した人">
-  <optgroup>
-    <option label="鈴木" value="suzuki">鈴木</option>
-    <option label="佐藤" value="satou">佐藤</option>
-    <option label="山本" value="yamamoto">山本</option>
-    <option label="渡辺" value="watanabe">渡辺</option>
-  </optgroup>
-</select>
+
+      <select id="InquityType" name="InquiryType" class="form-control">
+        <option value="">お問合せ種別を選択してください</option>
+          <optgroup label="ログイン・アカウント関連">
+            <option value="1">ログイン情報</option>
+            <option value="2">登録・ログインエラー</option>
+            <option value="3">登録コード（企業コード・店舗コード）</option>
+            <option value="4">所属店舗の変更</option>
+            <option value="5">メール配信停止</option>
+          </optgroup>
+          <optgroup label="管理関連（管理画面）">
+            <option value="6">在籍・退社設定</option>
+            <option value="7">所属店舗の変更</option>
+            <option value="8">閲覧範囲の設定・変更</option>
+            <option value="9">ID設定・組織設定</option>
+          </optgroup>
+          <optgroup label="通知関連">
+            <option value="10">通知が届かない</option>
+          </optgroup>
+          <optgroup label="レポート関連">
+            <option value="11">調査レポートに関して</option>
+            <option value="12">気づきシートに関して</option>
+          </optgroup>
+          <optgroup label="その他">
+            <option value="13">その他</option>
+          </optgroup>
+      </select>
+
+      
       <div class="btn-wrapper">
         <a href="#" class="btn signup">新規登録はこちら</a>
         <p>or</p>
