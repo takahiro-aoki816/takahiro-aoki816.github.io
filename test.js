@@ -5,8 +5,9 @@ test.en = {
   		tag.push('<nav id="gnav">');
   		tag.push('<ul class="cf nav-global content-inner">');
   		tag.push('<li class="nav-global-e-top" data-gnav="top">' + this.localNaviTop() + '</li>');
-      tag.push('</ul>');
-		  tag.push('</nav>');
+      		tag.push('</ul>');
+		tag.push('</nav>');
+		return tag.join('');
     },
   	localNaviTop : function() {
   		var tag = [];
