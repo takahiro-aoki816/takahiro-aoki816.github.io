@@ -11,8 +11,8 @@ test.en = {
     },
   	localNaviTop : function() {
   		var tag = [];
-  		tag.push('<h2 class="snav-top btn-toggle"><a href="/en/index.html">TOP</a></h2>');
-  		tag.push('<h3 class="view-pc"><a href="/en/index.html">TOP</a></h3>');
+  		tag.push('<h2 class="snav-top btn-toggle"><a href="/en/index.html">先生</a></h2>');
+  		tag.push('<h3 class="view-pc"><a href="/en/index.html">先頭</a></h3>');
   		return tag.join('');
 	  },
 };
