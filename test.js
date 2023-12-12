@@ -7,7 +7,7 @@ test.en = {
   		tag.push('<li class="nav-global-e-top" data-gnav="top">' + this.localNaviTop() + '</li>');
       		tag.push('</ul>');
 		tag.push('</nav>');
-		return tag.join('');
+		document.write(tag.join(''));
     },
   	localNaviTop : function() {
   		var tag = [];
