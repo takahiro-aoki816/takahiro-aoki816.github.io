@@ -1,3 +1,4 @@
+var test = {};
 test.en = {
   	gnav : function() {
   		var tag = [];
