@@ -11,14 +11,14 @@
 <script src="https://d.shutto-translation.com/trans.js?id=37644"></script>
   <script>
     const target =　document.getElementsByName("description").item(0)
-    target.setAttribute("content","書き換えをしました")
-    
-    const observer = new MutationObserver(records => {
+        const observer = new MutationObserver(records => {
       console.trace()
     })
     const config = { attributes: true, childList: true, subtree: true };
     // 対象ノードの設定された変更の監視を開始
     observer.observe(target, config);
+    
+    target.setAttribute("content","書き換えをしました")
   </script>
 </head>
 <body>
