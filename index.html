@@ -12,6 +12,11 @@
   <script>
     const target =　document.getElementsByName("description").item(0)
     target.setAttribute("content","書き換えをしました")
+    
+    const observer = new MutationObserver(records => {
+    console.log(getMeta('description'))
+      console.trace()
+    })
   </script>
 </head>
 <body>
