@@ -18,12 +18,22 @@
     observer.observe(target, config);
     
     target.setAttribute("content","書き換えをしました")
+
+    function buttonClick(){
+      element = document.getElementById('mytextarea');
+      element.value = 'Hello';
+    }
+    
   </script>
-  <script src="https://d.shutto-translation.com/trans.js?id=43518"></script>
+  <script src="https://sandbox-d.ea-shutto-translation.net/trans.js?id=37644"></script>
 </head>
 <body>
 
 <script>test.en.gnav();</script>
+<div class="testArea">
+  <textarea id="mytextarea" rows="4" cols="40"></textarea>
+  <input type="button" value="button" onclick="buttonClick()">
+</div>
 <ul>
   <li class="test">HTML</li>
   <li>CSS</li>
