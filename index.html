@@ -32,8 +32,22 @@
       console.log(lang)
     });
   </script>
+  <script type="application/ld+json">
+{
+    "@context" : "http://schema.org/",
+    "@type":"Thing",
+    "name":"商品名",
+    "description":"商品の概要",
+    "image":"画像のURL"
+}
+</script>
 </head>
 <body>
+  <section vocab="http://schema.org/" typeof="Thing">
+    <h1 property="name">商品名</h1>
+    <p property="description">商品の概要</p> 
+    <img property="image" src="画像のURL" alt="商品写真">
+</section>
   <div class="top-wrapper">
     <div class="container">
       <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
