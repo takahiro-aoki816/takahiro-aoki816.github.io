@@ -33,9 +33,7 @@
     }
     
 function addForm() {
-  document.querySelector('.lesson-icon').remove()
-  document.querySelector('.lesson').insertAdjacentHTML('afterbegin','<div class="lesson-icon"><img src="https://shutto-translation-development3.s3.amazonaws.com/sites/277/images/UksjE40eVZk3ke9hDuiCJw/sk00017_item.jpg"></div>')
-}
+  document.querySelector('.lesson').appendChild(document.querySelector('.lesson-icon')cloneNode(true))
               
   </script>
   <script>
