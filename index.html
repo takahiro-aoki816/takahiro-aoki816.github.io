@@ -32,6 +32,10 @@
       element.value = 'Hello';
     }
     
+function addForm() {
+    document.body.appendChild(document.querySelector('.lesson-icon').cloneNode(true))
+}
+    
   </script>
   <script>
     __stt.get('lang', function(lang) {
@@ -92,6 +96,11 @@
       <div class="heading">
         <h2>Learn Where to Get Started!</h2>
       </div>
+<div class="bt_addForm">
+<!--ボタンをクリックしたらJavascriptファイル内の関数addForm()を実行する-->
+    <input type="button" value="追加" onclick="addForm()">
+</div>
+      
       <div class="lessons">
         <div class="lesson">
           <div class="lesson-icon">
